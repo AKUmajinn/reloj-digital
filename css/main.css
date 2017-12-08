@@ -5,8 +5,8 @@
 	background-position: top center;
 	background-attachment: fixed;
 	position: absolute;
-	height: 100%;
-	width: 100%;
+width: 375px;
+    height: 667px;
 }
 .transparencia{
 	background: rgba(0, 0, 0, 0.44);
