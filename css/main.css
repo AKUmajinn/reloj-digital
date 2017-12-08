@@ -1,12 +1,19 @@
+body{
+    justify-content: center;
+}
 .background{
-	background: url("../images/back.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-attachment: fixed;
-	position: absolute;
-width: 375px;
+    background: url(../images/back.png);
+    background-size: 375px 667px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 375px;
     height: 667px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    border-width: 27px 10px;
+    border-style: solid;
+    border-color: #45454a;
+    border-radius: 5px;
 }
 .transparencia{
 	background: rgba(0, 0, 0, 0.44);
@@ -19,18 +26,16 @@ width: 375px;
 }
 #fechaSistema{
 	font-size: 20px;
+    margin-bottom: 500px;
 }
 .transparencia a{
-    font-size: 31px;
+        font-size: 31px;
     color: white;
     display: inline-block;
     padding: 1px 10px;
     border-radius: 144px;
     border: 1px solid white;
-    position: fixed;
-    bottom: 6%;
     text-align: center;
-    left: 46%;
 }
 #ListaPaises{
 	z-index: 3;
