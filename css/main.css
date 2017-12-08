@@ -1,0 +1,58 @@
+body{
+    justify-content: center;
+}
+.background{
+    background: url(../images/back.png);
+    background-size: 375px 667px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 375px;
+    height: 667px;
+    margin: 0 auto;
+    box-sizing: content-box;
+    border-width: 27px 10px;
+    border-style: solid;
+    border-color: #45454a;
+    border-radius: 5px;
+}
+.transparencia{
+    background: rgba(0, 0, 0, 0.44);
+    height: 100%;
+    color:white;
+    }
+#horaSistema{
+    font-weight: 700;
+    font-size: 40px;
+}
+#fechaSistema{
+    font-size: 20px;
+    margin-bottom: 500px;
+}
+.transparencia a{
+        font-size: 31px;
+    color: white;
+    display: inline-block;
+    padding: 1px 10px;
+    border-radius: 144px;
+    border: 1px solid white;
+    text-align: center;
+}
+#ListaPaises{
+    z-index: 3;
+    display: none;
+    position: absolute;
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.65);
+}
+#ListaPaises input{
+    vertical-align: baseline;
+    margin: 0 15px;
+}
+#ListaPaises li{
+    padding: 5px 0;
+    font-size: 18px;
+    color: #404040;
+    font-weight: 100;
+}
